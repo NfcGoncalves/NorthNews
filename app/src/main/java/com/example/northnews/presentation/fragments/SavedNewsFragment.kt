@@ -1,4 +1,4 @@
-package com.example.northnews.ui.fragments
+package com.example.northnews.presentation.fragments
 
 import androidx.fragment.app.Fragment
 import com.example.northnews.R
