@@ -1,3 +1,9 @@
 <resources>
+    //General App
     <string name="app_name">NorthNews</string>
+
+    //Bottom navigation bar
+    <string name="bottom_navigation_bar_search_news">Search News</string>
+    <string name="bottom_navigation_bar_saved_news">Saved News</string>
+    <string name="bottom_navigation_bar_news_list">News List</string>
 </resources>
