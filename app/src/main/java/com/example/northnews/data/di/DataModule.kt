@@ -1,6 +1,6 @@
 package com.example.northnews.data.di
 
-import com.example.northnews.data.api.NewsApi
+import com.example.northnews.data.api.request.NewsApi
 import com.example.northnews.util.Constants.Companion.BASE_URL
 import dagger.Module
 import dagger.Provides

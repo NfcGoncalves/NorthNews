@@ -1,6 +1,6 @@
-package com.example.northnews.data.api
+package com.example.northnews.data.api.request
 
-import com.example.northnews.data.NewsResponse
+import com.example.northnews.data.api.response.NewsResponse
 import com.example.northnews.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
