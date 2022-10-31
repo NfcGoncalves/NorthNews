@@ -8,8 +8,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.northnews.data.api.response.Article
 import com.example.northnews.databinding.ItemArticleBinding
+import javax.inject.Inject
 
-class NewsAdapter(
+class NewsAdapter @Inject constructor(
     private val articleList: List<Article>
 ) : RecyclerView.Adapter<NewsAdapter.ViewHolder>() {
 
