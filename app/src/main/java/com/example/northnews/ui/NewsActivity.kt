@@ -7,7 +7,9 @@ import androidx.navigation.ui.NavigationUI
 import com.example.northnews.R
 import com.example.northnews.databinding.ActivityNewsBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class NewsActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityNewsBinding
